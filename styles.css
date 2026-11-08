@@ -96,3 +96,11 @@ h1,h2,h3{line-height:2;padding-top:.15em}
 @media(max-width:420px){.lesson-tabs>*{flex-basis:calc(50% - 8px);font-size:13px}}
 .swipe-hint{text-align:center;direction:ltr;font-size:13px;color:var(--teal);background:var(--teal-2);border-radius:12px;padding:8px 12px;margin:10px 0}
 .full-page-scroller.zoomed{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tips-sub{font-size:17px;margin:20px 0 4px;color:var(--teal)}
+.tips-sub.warn{color:#a4511c}
+.formula-card{background:var(--teal-2);border:1px solid var(--border);border-radius:16px;padding:16px 20px;margin-top:12px}
+.formula-label{display:inline-block;font-size:12px;color:var(--teal);margin-bottom:4px}
+.formula-card strong{display:block;font-size:18px;line-height:2.1}
+.formula-card p{margin:4px 0 0;color:var(--ink-2);font-size:15px;line-height:2.1}
+.tip-card.warn{background:#fdf0e6;border-color:#f0d3bb}
+.tip-card.warn .tip-num{background:#c8651f}
