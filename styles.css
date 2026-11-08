@@ -237,3 +237,20 @@ button,.button{max-width:100%;overflow-wrap:anywhere}
   .workspace{padding-bottom:90px}
 }
 @media(prefers-reduced-motion:reduce){.hifz-step,.hifz-lesson-cta{transition:none}}
+/* ---- contrast fixes (light + dark) ---- */
+:root{--ink-2:#4a6263;--on-teal:#ffffff;--gold-text:#7a5518;--warn-bg:#fdf0e6;--warn-border:#f0d3bb;--warn-ink:#8f420f;--warn-dot:#b4551a}
+[data-theme=dark]{--ink-2:#b9cfce;--on-teal:#06282a;--gold-text:#ecce94;--gold-light:#3b3626;--warn-bg:#3a2a22;--warn-border:#5a4132;--warn-ink:#f2b896;--warn-dot:#f2b896}
+.button.primary,.pill.selected,.lesson-tab.active,.full-switch button.active,.tip-num,.hifz-step.is-current .hifz-number{color:var(--on-teal)}
+.button.primary *,.lesson-tab.active *{color:inherit}
+.badge.gold{color:var(--gold-text)}
+.tip-card.warn{background:var(--warn-bg);border-color:var(--warn-border)}
+.tip-card.warn .tip-num{background:var(--warn-dot);color:var(--on-teal)}
+[data-theme=dark] .tip-card.warn .tip-num{color:#3a2a22}
+.tips-sub.warn{color:var(--warn-ink)}
+.feature-top span,.morph-arrow,.foot-flower,.mini-art,.stat-icon{color:var(--gold-text)}
+.search-key{color:var(--ink-2)}
+.button.outline{color:var(--ink)}
+.button:disabled,.button[disabled]{opacity:.55}
+.hero .button.primary{color:#183838}
+.stat-card .stat-icon,.learn-summary .mini-art{color:var(--gold-text)}
+.search-key{display:none}
