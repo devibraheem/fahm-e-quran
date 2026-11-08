@@ -75,3 +75,17 @@ h1,h2,h3{line-height:2;padding-top:.15em}
 .lesson-layout.memory-notes .stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px;align-items:start}
 .button-group{margin-top:22px}
 @media(max-width:760px){.lesson-layout.memory-notes .stack{grid-template-columns:1fr}}
+.hero h1,.page-heading h1{line-height:2.2;padding-top:.2em}
+.hero p{line-height:2.1}
+@media(max-width:1020px){
+.mobile-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;height:auto;min-height:64px;padding:6px 4px max(6px,env(safe-area-inset-bottom));direction:ltr}
+.mobile-nav button{min-width:0;width:100%;padding:4px 2px;gap:3px;font-size:10.5px;line-height:1.25;text-align:center;border-radius:12px;font-family:'LatinUI','Segoe UI',Arial,sans-serif}
+.mobile-nav button span{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mobile-nav button.active{background:var(--teal-2)}
+.mobile-nav button svg{width:21px;height:21px}
+.workspace{padding-bottom:96px}
+}
+@media(max-width:360px){.mobile-nav button{font-size:9.5px}}
+.page-heading h1,.page-heading h2{margin-bottom:6px}
+.page-heading p{margin-top:4px;line-height:2.1}
+.page-heading{margin-bottom:22px}
